@@ -1,323 +1,309 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GraniteCore Heavy Services — Outsourced Heavy Machinery for Mining</title>
-  <meta name="description" content="GraniteCore Heavy Services provides outsourced heavy machinery, maintenance, logistics and skilled crews to the mining industry across South Africa. Turnkey fleet solutions, safety-first operations, and data-driven uptime.">
-  <meta name="keywords" content="mining machinery, heavy equipment outsourcing, fleet leasing, mining maintenance, heavy haulage">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg:#0f1724; --card:#0b1220; --accent:#ffb020; --muted:#9aa7b2; --white:#f7fafc;
-      --glass: rgba(255,255,255,0.04);
-      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%;margin:0;background:linear-gradient(180deg,#081025 0%, #071229 60%);color:var(--white);}
-    a{color:inherit;text-decoration:none}
-    .container{max-width:1200px;margin:0 auto;padding:1rem}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GraniteCore Heavy Services — Outsourced Heavy Machinery for Mining</title>
+  <meta name="description" content="GraniteCore Heavy Services provides outsourced heavy machinery, maintenance, logistics and skilled crews to the mining industry across Southern Africa. Turnkey fleet solutions, safety-first operations, and data-driven uptime.">
+  <meta name="keywords" content="mining machinery, heavy equipment outsourcing, fleet leasing, mining maintenance, heavy haulage">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#ffb020; --muted:#9aa7b2; --white:#f7fafc;
+      --glass: rgba(255,255,255,0.04);
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#081025 0%, #071229 60%);color:var(--white);}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1200px;margin:0 auto;padding:1rem}
 
-    /* Navbar */
-    .navbar{display:flex;align-items:center;justify-content:space-between;padding:1rem 0}
-    .brand{display:flex;align-items:center;gap:.75rem}
-    .logo{width:48px;height:48px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#ff6b6b);display:flex;align-items:center;justify-content:center;font-weight:800;color:#071229}
-    nav ul{display:flex;gap:1rem;list-style:none;margin:0;padding:0}
-    nav li{padding:.35rem .6rem;border-radius:6px}
-    nav li a{color:var(--muted);font-weight:600}
-    nav li a:hover{color:var(--white)}
-    .cta{background:var(--accent);padding:.55rem .9rem;border-radius:8px;color:#071229;font-weight:700}
+    /* Navbar */
+    .navbar{display:flex;align-items:center;justify-content:space-between;padding:1rem 0}
+    .brand{display:flex;align-items:center;gap:.75rem}
+    .logo{width:48px;height:48px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#ff6b6b);display:flex;align-items:center;justify-content:center;font-weight:800;color:#071229}
+    nav ul{display:flex;gap:1rem;list-style:none;margin:0;padding:0}
+    nav li{padding:.35rem .6rem;border-radius:6px}
+    nav li a{color:var(--muted);font-weight:600}
+    nav li a:hover{color:var(--white)}
+    .cta{background:var(--accent);padding:.55rem .9rem;border-radius:8px;color:#071229;font-weight:700}
 
-    /* Hero */
-    .hero{display:grid;grid-template-columns:1fr 420px;gap:2rem;align-items:center;padding:2.5rem 0}
-    .hero h1{font-size:2.1rem;margin:.2rem 0;line-height:1.02}
-    .hero p{color:var(--muted);margin:.8rem 0 1.2rem}
-    .hero .stats{display:flex;gap:1rem}
-    .stat{background:var(--glass);padding:.9rem;border-radius:10px;text-align:center;width:120px}
-    .stat h3{margin:.25rem 0;color:var(--white)}
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:2rem;align-items:center;padding:2.5rem 0}
+    .hero h1{font-size:2.1rem;margin:.2rem 0;line-height:1.02}
+    .hero p{color:var(--muted);margin:.8rem 0 1.2rem}
+    .hero .stats{display:flex;gap:1rem}
+    .stat{background:var(--glass);padding:.9rem;border-radius:10px;text-align:center;width:120px}
+    .stat h3{margin:.25rem 0;color:var(--white)}
 
-    /* Card grid for services */
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1.2rem 0}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
-    .card h4{margin:.4rem 0}
-    .muted{color:var(--muted);font-size:.95rem}
+    /* Card grid for services */
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1.2rem 0}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:1rem;border-radius:12px;border:1px solid rgba(255,255,255,0.03)}
+    .card h4{margin:.4rem 0}
+    .muted{color:var(--muted);font-size:.95rem}
 
-    /* Partners & clients */
-    .partners{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
-    .partner{background:rgba(255,255,255,0.03);padding:.6rem .9rem;border-radius:8px;font-weight:700}
+    /* Partners & clients */
+    .partners{display:flex;gap:1rem;flex-wrap:wrap;align-items:center}
+    .partner{background:rgba(255,255,255,0.03);padding:.6rem .9rem;border-radius:8px;font-weight:700}
 
-    /* Case studies */
-    .case{display:flex;gap:1rem;align-items:stretch}
-    .case .left{flex:1}
-    .case .right{width:320px}
+    /* Case studies */
+    .case{display:flex;gap:1rem;align-items:stretch}
+    .case .left{flex:1}
+    .case .right{width:320px}
 
-    /* Contact */
-    footer{margin-top:2rem;padding:2rem 0;border-top:1px solid rgba(255,255,255,0.03)}
-    .contact-card{background:var(--card);padding:1rem;border-radius:10px}
+    /* Contact */
+    footer{margin-top:2rem;padding:2rem 0;border-top:1px solid rgba(255,255,255,0.03)}
+    .contact-card{background:var(--card);padding:1rem;border-radius:10px}
 
-    /* small screens */
-    @media(max-width:880px){
-      .hero{grid-template-columns:1fr;}
-      .case{flex-direction:column}
-      nav ul{display:none}
-    }
+    /* small screens */
+    @media(max-width:880px){
+      .hero{grid-template-columns:1fr;}
+      .case{flex-direction:column}
+      nav ul{display:none}
+    }
 
-    /* micro interactions */
-    .btn{display:inline-block;padding:.6rem .9rem;border-radius:8px}
-    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06)}
-    .kpi{font-size:1.5rem;font-weight:800;color:var(--accent)}
+    /* micro interactions */
+    .btn{display:inline-block;padding:.6rem .9rem;border-radius:8px}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06)}
+    .kpi{font-size:1.5rem;font-weight:800;color:var(--accent)}
 
-    /* accessibility focus */
-    a:focus,button:focus,input:focus{outline:3px solid rgba(255,176,32,0.18);outline-offset:2px}
-  </style>
+    /* accessibility focus */
+    a:focus,button:focus,input:focus{outline:3px solid rgba(255,176,32,0.18);outline-offset:2px}
+  </style>
 </head>
 <body>
-  <header class="container navbar" role="banner">
-    <div class="brand">
-      <div class="logo" aria-hidden>GC</div>
-      <div>
-        <div style="font-weight:800">GraniteCore Heavy Services</div>
-        <div style="font-size:.85rem;color:var(--muted);margin-top:2px">Outsourced heavy machinery for mining excellence</div>
-      </div>
-    </div>
-    <nav role="navigation" aria-label="Main navigation">
-      <ul>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#case-studies">Case Studies</a></li>
-        <li><a href="#partners">Partners</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div style="display:flex;gap:.6rem;align-items:center">
-      <a class="btn btn-ghost" href="#contact">Request Proposal</a>
-      <a class="cta" href="#contact">Get a Quote</a>
-    </div>
-  </header>
+  <header class="container navbar" role="banner">
+    <div class="brand">
+      <div class="logo" aria-hidden>GC</div>
+      <div>
+        <div style="font-weight:800">GraniteCore Heavy Services</div>
+        <div style="font-size:.85rem;color:var(--muted);margin-top:2px">Outsourced heavy machinery for mining excellence</div>
+      </div>
+    </div>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#case-studies">Case Studies</a></li>
+        <li><a href="#partners">Partners</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div style="display:flex;gap:.6rem;align-items:center">
+      <a class="btn btn-ghost" href="#contact">Request Proposal</a>
+      <a class="cta" href="#contact">Get a Quote</a>
+    </div>
+  </header>
 
-  <main class="container" role="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div>
-        <h1 id="hero-title">Turnkey heavy fleet solutions — reduce capex, improve uptime</h1>
-        <p>GraniteCore partners with mines to supply, operate and maintain heavy machinery — from 200-ton haul trucks to drill rigs — on a fully outsourced, performance-driven model. Safety, uptime and cost predictability are our pillars.</p>
-        <div class="grid" aria-hidden>
-          <div class="card">
-            <h4>Fleet Outsourcing & Leasing</h4>
-            <p class="muted">CAPEX-light fleet provision: short-term, mid-term and long-term contracts with on-site operators and full maintenance.</p>
-          </div>
-          <div class="card">
-            <h4>Maintenance & Spares</h4>
-            <p class="muted">PLANNED maintenance, predictive analytics and guaranteed spare parts availability for critical components.</p>
-section
-          </div>
-          <div class="card">
-            <h4>Logistics & Haulage</h4>
-            <p class="muted">End-to-end heavy haulage, road permits, escort services and heavy-lift coordination.</p>
-          </div>
-          <div class="card">
-            <h4>Training & Workforce</h4>
-            <p class="muted">Skilled operators, certified technicians and mining-safety training programs for client teams.</p>
-          </div>
-        </div>
-        <div class="stats" style="margin-top:1rem">
-          <div class="stat"><div class="kpi">420+</div><div class="muted">Machines Managed</div></div>
-          <div class="stat"><div class="kpi">99.2%</div><div class="muted">Avg Fleet Uptime</div></div>
-          <div class="stat"><div class="kpi">9</div><div class="muted">Provinces Served</div></div>
-        </div>
-      </div>
+  <main class="container" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Turnkey heavy fleet solutions — reduce capex, improve uptime</h1>
+        <p>GraniteCore partners with mines to supply, operate and maintain heavy machinery — from 200-ton haul trucks to drill rigs — on a fully outsourced, performance-driven model. Safety, uptime and cost predictability are our pillars.</p>
+        <div class="grid" aria-hidden>
+          <div class="card">
+            <h4>Fleet Outsourcing & Leasing</h4>
+            <p class="muted">CAPEX-light fleet provision: short-term, mid-term and long-term contracts with on-site operators and full maintenance.</p>
+          </div>
+          <div class="card">
+            <h4>Maintenance & Spares</h4>
+            <p class="muted">PLANNED maintenance, predictive analytics and guaranteed spare parts availability for critical components.</p>
+          </div>
+          <div class="card">
+            <h4>Logistics & Haulage</h4>
+            <p class="muted">End-to-end heavy haulage, road permits, escort services and heavy-lift coordination.</p>
+          </div>
+          <div class="card">
+            <h4>Training & Workforce</h4>
+            <p class="muted">Skilled operators, certified technicians and mining-safety training programs for client teams.</p>
+          </div>
+        </div>
+        <div class="stats" style="margin-top:1rem">
+          <div class="stat"><div class="kpi">420+</div><div class="muted">Machines Managed</div></div>
+          <div class="stat"><div class="kpi">99.2%</div><div class="muted">Avg Fleet Uptime</div></div>
+          <div class="stat"><div class="kpi">12</div><div class="muted">Countries Served</div></div>
+        </div>
+      </div>
 
-      <aside class="contact-card" aria-labelledby="quick-quote">
-        <h3 id="quick-quote">Quick contact</h3>
-        <p class="muted">Request a tailored equipment outsourcing plan. We will respond within one business day.</p>
-        <p style="margin:.6rem 0"><strong>Sales:</strong><br>sales@granitecore.example.com<br>+27 21 555 0123</p>
-        <p style="margin:.6rem 0"><strong>Operations (24/7):</strong><br>ops@granitecore.example.com<br>+27 83 210 9988</p>
-        <a href="#contact" class="btn" style="margin-top:.6rem;background:var(--accent);color:#071229">Request Proposal</a>
-      </aside>
-    </section>
+      <aside class="contact-card" aria-labelledby="quick-quote">
+        <h3 id="quick-quote">Quick contact</h3>
+        <p class="muted">Request a tailored equipment outsourcing plan. We will respond within one business day.</p>
+        <p style="margin:.6rem 0"><strong>Sales:</strong><br>sales@granitecore.example.com<br>+27 11 555 0123</p>
+        <p style="margin:.6rem 0"><strong>Operations (24/7):</strong><br>ops@granitecore.example.com<br>+27 83 210 9988</p>
+        <a href="#contact" class="btn" style="margin-top:.6rem;background:var(--accent);color:#071229">Request Proposal</a>
+      </aside>
+    </section>
 
-    <section id="services">
-      <h2>What we provide</h2>
-      <p class="muted">Comprehensive services designed to keep your mine running with predictable costs and maximum safety.</p>
-      <div class="grid" style="margin-top:1rem">
-        <div class="card">
-          <h4>Equipment Provisioning</h4>
-          <p class="muted">Range: 50–350 tonne haul trucks, hydraulic shovels, excavators, dozers, drill rigs, graders, water trucks and conveyors. All equipment is inspected and certified before deployment.</p>
-        </div>
-        <div class="card">
-          <h4>Ops & Crew Outsourcing</h4>
-          <p class="muted">Supply of certified operators, shift management, fatigue monitoring and site supervision. Local-hire programs built into each scope.</p>
-        </div>
-        <div class="card">
-          <h4>Preventive & Predictive Maintenance</h4>
-          <p class="muted">Condition-based monitoring (telemetry), OEM-aligned maintenance schedules and guaranteed response times for critical repairs.</p>
-        </div>
-        <div class="card">
-          <h4>Spare Parts & Logistics</h4>
-          <p class="muted">Regional warehousing, AOG (Aircraft on Ground) style priority sourcing for critical parts and consolidated shipping for cost efficiency.</p>
-all
-        </div>
-      </div>
-    </section>
+    <section id="services">
+      <h2>What we provide</h2>
+      <p class="muted">Comprehensive services designed to keep your mine running with predictable costs and maximum safety.</p>
+      <div class="grid" style="margin-top:1rem">
+        <div class="card">
+          <h4>Equipment Provisioning</h4>
+          <p class="muted">Range: 50–350 tonne haul trucks, hydraulic shovels, excavators, dozers, drill rigs, graders, water trucks and conveyors. All equipment is inspected and certified before deployment.</p>
+        </div>
+        <div class="card">
+          <h4>Ops & Crew Outsourcing</h4>
+          <p class="muted">Supply of certified operators, shift management, fatigue monitoring and site supervision. Local-hire programs built into each scope.</p>
+        </div>
+        <div class="card">
+          <h4>Preventive & Predictive Maintenance</h4>
+          <p class="muted">Condition-based monitoring (telemetry), OEM-aligned maintenance schedules and guaranteed response times for critical repairs.</p>
+        </div>
+        <div class="card">
+          <h4>Spare Parts & Logistics</h4>
+          <p class="muted">Regional warehousing, AOG (Aircraft on Ground) style priority sourcing for critical parts and consolidated shipping for cost efficiency.</p>
+        </div>
+      </div>
+    </section>
 
-    <section id="case-studies" style="margin-top:1.6rem">
-      <h2>Selected case studies</h2>
-      <div class="case" style="margin-top:1rem">
-        <div class="left card">
-          <h3>1. Fleet optimization for Karu Copper Mine</h3>
-          <p class="muted">Challenge: High downtime and unpredictable maintenance costs on a 20-machine fleet. Solution: GraniteCore deployed condition-monitoring, optimized maintenance windows and supplied 12 replacement units on a 3-year contract, reducing unscheduled downtime by 67% and lowering maintenance cost per operating hour by 28%.</p>
-          <ul class="muted">
-            <li>Scope: 12 haul trucks, 4 hydraulic shovels, 6 graders</li>
-            <li>Outcome: 15% increase in monthly ore throughput</li>
-section
-            <li>Contract type: Availability-based (SLA) with performance bonuses</li>
-          </ul>
-        </div>
-        <aside class="right card">
-          <h4>Key metrics</h4>
-          <p class="muted">Downtime reduced: <strong>67%</strong><br>Maintenance cost/hr: <strong>-28%</strong><br>Time to full deployment: <strong>8 weeks</strong></p>
-        </aside>
-      </div>
+    <section id="case-studies" style="margin-top:1.6rem">
+      <h2>Selected case studies</h2>
+      <div class="case" style="margin-top:1rem">
+        <div class="left card">
+          <h3>1. Fleet optimization for Karu Copper Mine</h3>
+          <p class="muted">Challenge: High downtime and unpredictable maintenance costs on a 20-machine fleet. Solution: GraniteCore deployed condition-monitoring, optimized maintenance windows and supplied 12 replacement units on a 3-year contract, reducing unscheduled downtime by 67% and lowering maintenance cost per operating hour by 28%.</p>
+          <ul class="muted">
+            <li>Scope: 12 haul trucks, 4 hydraulic shovels, 6 graders</li>
+            <li>Outcome: 15% increase in monthly ore throughput</li>
+            <li>Contract type: Availability-based (SLA) with performance bonuses</li>
+          </ul>
+        </div>
+        <aside class="right card">
+          <h4>Key metrics</h4>
+          <p class="muted">Downtime reduced: <strong>67%</strong><br>Maintenance cost/hr: <strong>-28%</strong><br>Time to full deployment: <strong>8 weeks</strong></p>
+        </aside>
+      </div>
 
-      <div class="case" style="margin-top:1rem">
-        <div class="left card">
-          <h3>2. Emergency deployment — Mutare Gold Project</h3>
-          <p class="muted">Challenge: Sudden equipment failure at an opencast mine required rapid replacement. Solution: Within 10 days GraniteCore delivered 3 haul trucks, a mobile workshop and technicians. The mine avoided a projected production shortfall of 120,000 tonnes that quarter.</p>
-  S
-          <ul class="muted">
-            <li>Scope: Short-term leasing + emergency maintenance</li>
-seconds
-            <li>Outcome: Production maintained, client savings estimated at US$2.4M</li>
-          </ul>
-        </div>
-        <aside class="right card">
-          <h4>Rapid response</h4>
-          <p class="muted">Deployment time: <strong>10 days</strong><br>Production saved: <strong>120,000 t</strong></p>
-        </aside>
-      </div>
-    </section>
+      <div class="case" style="margin-top:1rem">
+        <div class="left card">
+          <h3>2. Emergency deployment — Mutare Gold Project</h3>
+          <p class="muted">Challenge: Sudden equipment failure at an opencast mine required rapid replacement. Solution: Within 10 days GraniteCore delivered 3 haul trucks, a mobile workshop and technicians. The mine avoided a projected production shortfall of 120,000 tonnes that quarter.</p>
+          <ul class="muted">
+            <li>Scope: Short-term leasing + emergency maintenance</li>
+            <li>Outcome: Production maintained, client savings estimated at US$2.4M</li>
+          </ul>
+        </div>
+        <aside class="right card">
+          <h4>Rapid response</h4>
+          <p class="muted">Deployment time: <strong>10 days</strong><br>Production saved: <strong>120,000 t</strong></p>
+        </aside>
+      </div>
+    </section>
 
-    <section id="partners" style="margin-top:1.6rem">
-      <h2>Strategic partners & clients</h2>
-      <p class="muted">We work with OEMs, logistics firms and mining operators to deliver integrated solutions.</p>
-      <div class="partners" style="margin-top:1rem">
-        <div class="partner" title="Caterpillar">Caterpillar (OEM)</div>
-        <div class="partner" title="Komatsu">Komatsu (OEM)</div>
-        <div class="partner" title="Sandvik">Sandvik (Drilling Solutions)</div>
-        <div class="partner" title="Liebherr">Liebherr (Shovels & Cranes)</div>
-        <div class="partner" title="TransLift">TransLift Heavy Haulage</div>
-  Message
-        <div class="partner" title="LogiShip">LogiShip Freight & Customs</div>
-        <div class="partner" title="Vertex Insurance">Vertex Insurance (Fleet insurance)</div>
-      </div>
+    <section id="partners" style="margin-top:1.6rem">
+      <h2>Strategic partners & clients</h2>
+      <p class="muted">We work with OEMs, logistics firms and mining operators to deliver integrated solutions.</p>
+      <div class="partners" style="margin-top:1rem">
+        <div class="partner" title="Caterpillar">Caterpillar (OEM)</div>
+        <div class="partner" title="Komatsu">Komatsu (OEM)</div>
+        <div class="partner" title="Sandvik">Sandvik (Drilling Solutions)</div>
+        <div class="partner" title="Liebherr">Liebherr (Shovels & Cranes)</div>
+        <div class="partner" title="TransLift">TransLift Heavy Haulage</div>
+        <div class="partner" title="LogiShip">LogiShip Freight & Customs</div>
+        <div class="partner" title="Vertex Insurance">Vertex Insurance (Fleet insurance)</div>
+      </div>
 
-      <h3 style="margin-top:1rem">Representative clients</h3>
-      <div class="grid" style="margin-top:.6rem">
-        <div class="card"><strong>Karu Copper Mine</strong><div class="muted">Open-pit copper operation — 2019–2023 fleet outsourcing</div></div>
-        <div class="card"><strong>Mutare Gold Project</strong><div class="muted">Emergency equipment deployment — 2024</div></div>
-        <div class="card"><strong>Great Rift Phosphate</strong><div class="muted">Maintenance contract for 30 units — ongoing</div></div>
-        <div class="card"><strong>North Ridge Coal</strong><div class="muted">Drills & shovels supply — ongoing</div></div>
-      </div>
-    </section>
+      <h3 style="margin-top:1rem">Representative clients</h3>
+      <div class="grid" style="margin-top:.6rem">
+        <div class="card"><strong>Karu Copper Mine</strong><div class="muted">Open-pit copper operation — 2019–2023 fleet outsourcing</div></div>
+        <div class="card"><strong>Mutare Gold Project</strong><div class="muted">Emergency equipment deployment — 2024</div></div>
+        <div class="card"><strong>Great Rift Phosphate</strong><div class="muted">Maintenance contract for 30 units — ongoing</div></div>
+        <div class="card"><strong>North Ridge Coal</strong><div class="muted">Drills & shovels supply — ongoing</div></div>
+      </div>
+    </section>
 
-    <section id="about" style="margin-top:1.6rem">
-      <h2>About GraniteCore</h2>
-      <p class="muted">Founded in 2013 by mining and engineering professionals, GraniteCore Heavy Services was established to provide a commercially attractive alternative to heavy equipment ownership. We combine OEM relationships, on-ground logistics and a safety-centric operations culture to deliver measurable results.</p>
+    <section id="about" style="margin-top:1.6rem">
+      <h2>About GraniteCore</h2>
+      <p class="muted">Founded in 2013 by mining and engineering professionals, GraniteCore Heavy Services was established to provide a commercially attractive alternative to heavy equipment ownership. We combine OEM relationships, on-ground logistics and a safety-centric operations culture to deliver measurable results.</p>
 
-      <div class="grid" style="margin-top:1rem">
-        <div class="card">
-          <h4>Mission</h4>
-          <p class="muted">To enable mining operations to scale safely and efficiently by providing reliable, fully-managed heavy equipment solutions.</p>
-        </div>
-        <div class="card">
-          <h4>Vision</h4>
-          <p class="muted">A mining industry where gear availability and safety are predictable — so operators can focus on production excellence.</p>
-        </div>
-        <div class="card">
-          <h4>Values</h4>
-          <p class="muted">Safety first • Reliability • Transparency • Local empowerment • Sustainability</p>
-        </div>
-      </div>
+      <div class="grid" style="margin-top:1rem">
+        <div class="card">
+          <h4>Mission</h4>
+          <p class="muted">To enable mining operations to scale safely and efficiently by providing reliable, fully-managed heavy equipment solutions.</p>
+        </div>
+        <div class="card">
+          <h4>Vision</h4>
+          <p class="muted">A mining industry where gear availability and safety are predictable — so operators can focus on production excellence.</p>
+        </div>
+        <div class="card">
+          <h4>Values</h4>
+          <p class="muted">Safety first • Reliability • Transparency • Local empowerment • Sustainability</p>
+        </div>
+      </div>
 
-      <h3 style="margin-top:1rem">Leadership</h3>
-      <div class="grid" style="margin-top:.6rem">
-        <div class="card">
-          <h4>Dr. Elias Mwangi — Chief Executive Officer</h4>
-          <p class="muted">Former mining engineer with 18 years of experience in fleet management and operations. PhD in Mining Systems Engineering. Passionate about predictive maintenance and workforce development.</p>
-        </div>
-        <div class="card">
-          <h4>Ms. Naledi Tshabalala — COO</h4>
-          <p class="muted">Ops leader with strong background in logistics and safety management across South Africa.</p>
-  s
-        </div>
-        <div class="card">
-          <h4>Mr. James Okoye — CTO</h4>
-          <p class="muted">Leads the digital & telemetry program — integrates OEM data streams and provides fleet analytics.</p>
-        </div>
-      </div>
-    </section>
+      <h3 style="margin-top:1rem">Leadership</h3>
+      <div class="grid" style="margin-top:.6rem">
+        <div class="card">
+          <h4>Dr. Elias Mwangi — Chief Executive Officer</h4>
+          <p class="muted">Former mining engineer with 18 years of experience in fleet management and operations. PhD in Mining Systems Engineering. Passionate about predictive maintenance and workforce development.</p>
+        </div>
+        <div class="card">
+          <h4>Ms. Naledi Tshabalala — COO</h4>
+          <p class="muted">Ops leader with strong background in logistics and safety management across southern Africa.</p>
+        </div>
+        <div class="card">
+          <h4>Mr. James Okoye — CTO</h4>
+          <p class="muted">Leads the digital & telemetry program — integrates OEM data streams and provides fleet analytics.</p>
+        </div>
+      </div>
+    </section>
 
-    <section id="contact" style="margin-top:1.6rem">
-      <h2>Contact & office</h2>
-      <p class="muted">We are headquartered in Cape Town with regional hubs across South Africa.</p>
-s
-      <div class="grid" style="margin-top:1rem">
-        <div class="card">
-          <h4>Main Office (HQ)</h4>
-          <p class="muted">GraniteCore Heavy Services<br>Unit 8, Harbourview Park<br>14 Signal Rd, Paarden Eiland<br>Cape Town<br>South Africa</p>
-S
-          <p class="muted"><strong>Phone:</strong> +27 21 555 0123<br><strong>Email:</strong> contact@granitecore.example.com</p>
-        </div>
-        <div class="card">
-          <h4>Get a proposal</h4>
-          <form aria-label="Request proposal form" onsubmit="submitProposal(event)">
-        _
-            <label for="name" class="muted">Name</label><br>
-s
-            <input id="name" required style="width:100%;padding:.6rem;border-radius:6px;border:1px solid rgba(255,255,255,0.05);margin:.35rem 0;background:transparent;color:var(--white)"><br>
-s
-            <label for="company" class="muted">Company</label><br>
-            <input id="company" required style="width:100%;padding:.6rem;border-radius:6px;border:1px solid rgba(255,255,255,0.05);margin:.35rem 0;background:transparent;color:var(--white)"><br>
-            <label for="message" class="muted">Brief requirement</label><br>
-            <textarea id="message" required rows="4" style="width:100%;padding:.6rem;border-radius:6px;border:1px solid rgba(255,255,255,0.05);margin:.35rem 0;background:transparent;color:var(--white)"></textarea>
-            <button type="submit" class="btn" style="margin-top:.5rem;background:var(--accent);color:#071229">Send request</button>
-            <div id="proposal-status" style="margin-top:.6rem;color:var(--muted)"></div>
-          </form>
-        </div>
-      </div>
-    </section>
+    <section id="contact" style="margin-top:1.6rem">
+      <h2>Contact & office</h2>
+      <p class="muted">We are headquartered in Johannesburg with regional hubs across Southern Africa.</p>
+      <div class="grid" style="margin-top:1rem">
+        <div class="card">
+          <h4>Main Office (HQ)</h4>
+          <p class="muted">GraniteCore Heavy Services<br>Unit 4, Riverstone Park<br>22 Industrial Ave, Johannesburg<br>South Africa</p>
+          <p class="muted"><strong>Phone:</strong> +27 11 555 0123<br><strong>Email:</strong> contact@granitecore.example.com</p>
+        </div>
+        <div class="card">
+          <h4>Get a proposal</h4>
+          <form aria-label="Request proposal form" onsubmit="submitProposal(event)">
+            <label for="name" class="muted">Name</label><br>
+            <input id="name" required style="width:100%;padding:.6rem;border-radius:6px;border:1px solid rgba(255,255,255,0.05);margin:.35rem 0;background:transparent;color:var(--white)"><br>
+            <label for="company" class="muted">Company</label><br>
+            <input id="company" required style="width:100%;padding:.6rem;border-radius:6px;border:1px solid rgba(255,255,255,0.05);margin:.35rem 0;background:transparent;color:var(--white)"><br>
+            <label for="message" class="muted">Brief requirement</label><br>
+            <textarea id="message" required rows="4" style="width:100%;padding:.6rem;border-radius:6px;border:1px solid rgba(255,255,255,0.05);margin:.35rem 0;background:transparent;color:var(--white)"></textarea>
+            <button type="submit" class="btn" style="margin-top:.5rem;background:var(--accent);color:#071229">Send request</button>
+            <div id="proposal-status" style="margin-top:.6rem;color:var(--muted)"></div>
+          </form>
+        </div>
+      </div>
+    </section>
 
-  </main>
+  </main>
 
-  <footer class="container" role="contentinfo">
-  t
-    <div style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center">
-      <div>
-        <div style="font-weight:800">GraniteCore Heavy Services</div>
-        <div class="muted">© 2013—2025 GraniteCore Heavy Services. All rights reserved.</div>
-      </div>
-      <div class="muted">Built for presentation purposes • Demo content</div>
-    </div>
-  </footer>
+  <footer class="container" role="contentinfo">
+    <div style="display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center">
+      <div>
+        <div style="font-weight:800">GraniteCore Heavy Services</div>
+        <div class="muted">© 2013—2025 GraniteCore Heavy Services. All rights reserved.</div>
+      </div>
+      <div class="muted">Built for presentation purposes • Demo content</div>
+    </div>
+  </footer>
 
-  <script>
-    // Small interactive bits to impress
-  indented
-    function submitProposal(e){
-      e.preventDefault();
-      const status = document.getElementById('proposal-status');
-      status.textContent = 'Thanks — your request has been received. A sales specialist will contact you within one business day.';
-      // For demo only: show example payload in console
-      console.log({name:document.getElementById('name').value,company:document.getElementById('company').value,message:document.getElementById('message').value});
-      // Clear form (visual)
-      e.target.reset();
-    }
+  <script>
+    // Small interactive bits to impress
+    function submitProposal(e){
+      e.preventDefault();
+      const status = document.getElementById('proposal-status');
+      status.textContent = 'Thanks — your request has been received. A sales specialist will contact you within one business day.';
+      // For demo only: show example payload in console
+      console.log({name:document.getElementById('name').value,company:document.getElementById('company').value,message:document.getElementById('message').value});
+      // Clear form (visual)
+      e.target.reset();
+    }
 
-    // small animated KPI number 
-    document.addEventListener('DOMContentLoaded', ()=>{
-      const el = document.querySelector('.stat .kpi');
-      // no heavy math, just micro flourish — keep accessible
-    });
-  </script>
+    // small animated KPI number 
+    document.addEventListener('DOMContentLoaded', ()=>{
+      const el = document.querySelector('.stat .kpi');
+      // no heavy math, just micro flourish — keep accessible
+    });
+  </script>
 </body>
 </html>
